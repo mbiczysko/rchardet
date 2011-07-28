@@ -42,6 +42,7 @@ module CharDet
 	SingleByteCharSetProber.new(Win1253GreekModel),
 	SingleByteCharSetProber.new(Latin5BulgarianModel),
 	SingleByteCharSetProber.new(Win1251BulgarianModel),
+	SingleByteCharSetProber.new(Latin1HungarianModel),
 	SingleByteCharSetProber.new(Latin2HungarianModel),
 	SingleByteCharSetProber.new(Win1250HungarianModel),
 	SingleByteCharSetProber.new(TIS620ThaiModel),

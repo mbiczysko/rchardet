@@ -216,6 +216,14 @@ Latin2HungarianModel = {
   'charsetName' =>  "ISO-8859-2"
 }
 
+Latin1HungarianModel = { 
+  'charToOrderMap' =>  Latin2_HungarianCharToOrderMap,
+  'precedenceMatrix' =>  HungarianLangModel,
+  'mTypicalPositiveRatio' =>  0.930605,
+  'keepEnglishLetter' =>  true,
+  'charsetName' =>  "ISO-8859-1"
+}
+
 Win1250HungarianModel = { 
   'charToOrderMap' =>  Win1250HungarianCharToOrderMap,
   'precedenceMatrix' =>  HungarianLangModel,
